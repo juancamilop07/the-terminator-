@@ -1,8 +1,8 @@
 Algoritmo sin_titulo
 	
-	//integrantes 1	 Elmer Novoa
-	//integrantes 2	 Camilo Cipamocha
-	//integrantes 3	 Daniel Donado
+	//integrantes 1	 Elmer Novoa Jimenez
+	//integrantes 2	 Juan Camilo Cipamocha
+	//integrantes 3	 Daniel Donado Collante
 	
 	
 	Escribir '********************************************'
