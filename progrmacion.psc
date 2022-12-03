@@ -1,5 +1,10 @@
 Algoritmo sin_titulo
 	
+	//integrantes 1	 Elmer Novoa
+	//integrantes 2	 Camilo Cipamocha
+	//integrantes 3	 Daniel Donado
+	
+	
 	Escribir '********************************************'
 	Escribir '**  Bienvenido al casino de cara y sello  **'
 	Escribir '********************************************'
@@ -7,13 +12,13 @@ Algoritmo sin_titulo
 	
 	Escribir 'Como es su nombre'
 	Leer nomb
-	Escribir '¿Cuanto dinero quiere ingresar a su cuenta para poder participar en las apuestas?'
+	Escribir 'Â¿Cuanto dinero quiere ingresar a su cuenta para poder participar en las apuestas?'
 	Leer  dinero_ingresado
 	desicion=1
 	contador = 0
 	
 	Repetir
-		Escribir '¿Cuanto dinero quiere apostar?'					//INICIO APUESTA
+		Escribir 'Â¿Cuanto dinero quiere apostar?'					//INICIO APUESTA
 		Leer valor_apues
 		
 		si valor_apues>dinero_ingresado
@@ -21,7 +26,7 @@ Algoritmo sin_titulo
 		sino
 			contador=contador+1
 			dinero_ingresado = dinero_ingresado - valor_apues
-			escribir ' ¿Cual es su eleccion para la apuesta caras o sellos?'
+			escribir ' Â¿Cual es su eleccion para la apuesta caras o sellos?'
 			Escribir  'Ingresa el numero cero (0) para elegir cara, y el numero uno (1) para seleccionar sellos'
 			Leer eleccion
 			Escribir ''
@@ -43,16 +48,16 @@ Algoritmo sin_titulo
 		Escribir ''
 		
 		si dinero_ingresado>0
-			Escribir '¿Quiere continuar apostando?'
+			Escribir 'Â¿Quiere continuar apostando?'
 			Escribir 'Ingresa el 1 para continuar apotando, o 2 para finalizar con las apuestas'
 			Leer desicion
 		SiNo
 			Escribir 'Que pena, ya no cuenta con el recurso necesario para seguir apostando'
-			Escribir '¿Desea agregar màs dinero a su saldo para continuar apostando?'
+			Escribir 'Â¿Desea agregar mÃ s dinero a su saldo para continuar apostando?'
 			Escribir 'Ingresa el 1 para si, o 2 para no'
 			Leer eleccion
 			si eleccion = 1
-				Escribir '¿Cuanto dinero quiere ingresar a su cuenta para poder participar en las apuestas?'
+				Escribir 'Â¿Cuanto dinero quiere ingresar a su cuenta para poder participar en las apuestas?'
 				Leer  dinero_ingresado
 			SiNo
 				desicion = 2
